@@ -6,3 +6,5 @@ jogo para treinar usar o GitHub com o titio vivi/Leonardo DiCaprio.
 27/08 - Hoje aprendemos sobre um aparte da Game Design, assuntos como o que é o Game Design e sobre o Game Design de Mecânica, vimos um video sobre um jogo chamado  HOB, ele falava sobre como o jogo é um exemplo de Game Design, também começamos a preencher o GDD que seria um documento sobre o jogo na qual estamos fazendo.
 
 17/09 - Meu querido diário, hoje fizemos os scripts de movimentação do player, ela são: Movimentação lateral onde são as teclas A e D e as setas para direita e esquerda, também fizemos o script de pulo a qual a tecla e o espaço, adicionei uma barreira invisível para o player naõ ir para o lado errado do mapa, foram adicionadas dois obstáculos para que o player tenha que escalar e passar.
+
+22/09 - Hoje fizemos um script chamdo câmera follow, também fizemos um que faz o player somente pular quando encostar no chão, para isso usamos uma variavel de tipo boolean chamada isGrounded, adicionei um empty que guarda os objetos do mapa dentro de um lugar para manter organizado, fiz os comentários no código para organizar tudo. 
