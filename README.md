@@ -9,4 +9,7 @@ jogo para treinar usar o GitHub com o titio vivi/Leonardo DiCaprio.
 
 22/09 - Hoje fizemos um script chamdo câmera follow, também fizemos um que faz o player somente pular quando encostar no chão, para isso usamos uma variavel de tipo boolean chamada isGrounded, adicionei um empty que guarda os objetos do mapa dentro de um lugar para manter organizado, fiz os comentários no código para organizar tudo. 
 
-24/09 - Durante o desenvolvimento do jogo no dia de hoje, iniciamos a construção do mapa do jogo, adicionamos plataformas e obstáculos ao mapa, deixando a aventura do personagem desafiadora e divertida, também fiz o script de dano, onde o personagem volta para a cena 0 após encostar o objeto, fiz também o de vitoria, onde ele vai para um menu ao encostar no objeto final 
+24/09 - Durante o desenvolvimento do jogo no dia de hoje, iniciamos a construção do mapa do jogo, adicionamos plataformas e obstáculos ao mapa, deixando a aventura do personagem desafiadora e divertida, também fiz o script de dano, onde o personagem volta para a cena 0 após encostar o objeto, fiz também o de vitoria, onde ele vai para um menu ao encostar no objeto final.
+
+29/09 - Hoje fizemos o mapa do nosso jogo, aprendemos a usar o Prefabs, esse recurso serve para manter a organização do projeto, com ele você pode adicionar objetos no mapa sem ter que usar ctrl c/v.
+        Aprendemos como funciona as cenas do jogo, agora sabemos como colocar um acena de menu e como podemos mudar o personagem de lugar.
