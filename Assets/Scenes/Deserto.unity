@@ -3434,7 +3434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7050096834226413724, guid: e0f236b395ba7794194e026a30c80f53, type: 3}
       propertyPath: m_TagString
-      value: Portal_2
+      value: Portal_Volta
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3619,6 +3619,10 @@ PrefabInstance:
     - target: {fileID: 7050096834226413724, guid: e0f236b395ba7794194e026a30c80f53, type: 3}
       propertyPath: m_Name
       value: Portal
+      objectReference: {fileID: 0}
+    - target: {fileID: 7050096834226413724, guid: e0f236b395ba7794194e026a30c80f53, type: 3}
+      propertyPath: m_TagString
+      value: Portal_Fase2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

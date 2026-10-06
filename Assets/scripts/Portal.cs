@@ -17,14 +17,17 @@ public class Portal : MonoBehaviour
         {
             SceneManager.LoadScene(2);// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal"
         }
-        else if (collision.gameObject.CompareTag("Portal_2"))// verifica se o objeto com o qual o jogador colidiu tem a tag "Portal2"
+        else if (collision.gameObject.CompareTag("Portal_Volta"))// verifica se o objeto com o qual o jogador colidiu tem a tag "Portal2"
         {
             SceneManager.LoadScene(0);// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal2"
-
-
-
-
-
+        }
+        else if (collision.gameObject.CompareTag("Portal_Fase2"))// verifica se o objeto com o qual o jogador colidiu tem a tag "Portal_Fase2"
+        {
+            SceneManager.LoadScene(3);// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal_Fase2"
+        }
+        else if (collision.gameObject.CompareTag("Portal_Volta2"))// verifica se o objeto com o qual o jogador colidiu tem a tag "Portal_Fase3"
+        {
+            SceneManager.LoadScene(2);// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal_Fase3"
         }
     }
 }

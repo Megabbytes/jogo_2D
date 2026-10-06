@@ -8,6 +8,10 @@ TagManager:
   - Dano
   - Portal
   - Portal_2
+  - Portal_Volta
+  - Portal_Fase2
+  - Inimigo
+  - Portal_Volta2
   layers:
   - Default
   - TransparentFX
