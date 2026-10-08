@@ -18,6 +18,7 @@ public class Cronometro : MonoBehaviour
             finished = true;
             print("Tempo total: " + Minutos + " minutos y " + Segundos + " segundos.");
         }
+
     }
 
     void Update()
