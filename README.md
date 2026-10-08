@@ -13,3 +13,7 @@ jogo para treinar usar o GitHub com o titio vivi/Leonardo DiCaprio.
 
 29/09 - Hoje fizemos o mapa do nosso jogo, aprendemos a usar o Prefabs, esse recurso serve para manter a organização do projeto, com ele você pode adicionar objetos no mapa sem ter que usar ctrl c/v.
         Aprendemos como funciona as cenas do jogo, agora sabemos como colocar um acena de menu e como podemos mudar o personagem de lugar.
+
+06/10 - Durante o desenvolvimento do jogo hoje, fiz uma nova mecânica de inimigos que perseguem o personagem pelo mapa, também fiz a fase 3 e decorei ela para tentar manter um bom Game Design de Ambientação.
+
+08/10 - implementei uma mecânica de cronometro no meu jogo.
