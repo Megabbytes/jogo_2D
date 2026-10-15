@@ -17,3 +17,5 @@ jogo para treinar usar o GitHub com o titio vivi/Leonardo DiCaprio.
 06/10 - Durante o desenvolvimento do jogo hoje, fiz uma nova mecânica de inimigos que perseguem o personagem pelo mapa, também fiz a fase 3 e decorei ela para tentar manter um bom Game Design de Ambientação.
 
 08/10 - implementei uma mecânica de cronometro no meu jogo.
+
+15/10 - Adicionei um menu de morte ao meu jogo, um Canvas e um panel, adicionei um botão de reset também, mudei algumas partes do cenário para arrumar alguns bugs e mudei a cor do céu no primeiro mapa
