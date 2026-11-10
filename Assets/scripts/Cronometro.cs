@@ -13,11 +13,12 @@ public class Cronometro : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Finish"))
+        if (collision.gameObject.CompareTag("Final"))
         {
             finished = true;
-            print("Tempo total: " + Minutos + " minutos y " + Segundos + " segundos.");
+            print("Tempo total: " + Minutos + " minutos e " + Segundos + " segundos.");
         }
+        
 
     }
 
@@ -32,8 +33,8 @@ public class Cronometro : MonoBehaviour
                 Minutos += 1f;
                 Segundos -= 60f;
             }
-            print("Minutos: " + Minutos + " Segundos: " + Segundos);
 
+            print($"Minutos: { Minutos:F0}" + $" Segundos: { Segundos:F1}");
         }
        
     }

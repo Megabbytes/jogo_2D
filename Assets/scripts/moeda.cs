@@ -21,7 +21,5 @@ public class moeda : MonoBehaviour
             moedas++;
             Destroy(gameObject);
         }
-        Debug.Log("Moedas: " + moedas);  
-
     }
 }

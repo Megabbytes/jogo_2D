@@ -12,6 +12,8 @@ TagManager:
   - Portal_Fase2
   - Inimigo
   - Portal_Volta2
+  - Final
+  - Moeda
   layers:
   - Default
   - TransparentFX
