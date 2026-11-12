@@ -2327,6 +2327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: espinhos (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9150979713748449139, guid: b003df10ca52a804498d101b244119b7, type: 3}
+      propertyPath: m_TagString
+      value: Dano
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2639,7 +2643,7 @@ GameObject:
   - component: {fileID: 1021663111}
   m_Layer: 0
   m_Name: lava
-  m_TagString: Portal
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2810,7 +2814,7 @@ GameObject:
   - component: {fileID: 1024545543}
   m_Layer: 0
   m_Name: jacare
-  m_TagString: Portal
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2982,6 +2986,10 @@ PrefabInstance:
     - target: {fileID: 9150979713748449139, guid: b003df10ca52a804498d101b244119b7, type: 3}
       propertyPath: m_Name
       value: espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150979713748449139, guid: b003df10ca52a804498d101b244119b7, type: 3}
+      propertyPath: m_TagString
+      value: Dano
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3436,6 +3444,10 @@ PrefabInstance:
     - target: {fileID: 9150979713748449139, guid: b003df10ca52a804498d101b244119b7, type: 3}
       propertyPath: m_Name
       value: espinhos (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150979713748449139, guid: b003df10ca52a804498d101b244119b7, type: 3}
+      propertyPath: m_TagString
+      value: Dano
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4394,6 +4406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: espinhos (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9150979713748449139, guid: b003df10ca52a804498d101b244119b7, type: 3}
+      propertyPath: m_TagString
+      value: Dano
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4638,7 +4654,7 @@ GameObject:
   - component: {fileID: 1721078582}
   m_Layer: 0
   m_Name: jacare (2)
-  m_TagString: Portal
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5088,7 +5104,7 @@ GameObject:
   - component: {fileID: 1862820583}
   m_Layer: 0
   m_Name: agua
-  m_TagString: Portal
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5222,7 +5238,7 @@ GameObject:
   - component: {fileID: 1891022619}
   m_Layer: 0
   m_Name: sol
-  m_TagString: Portal
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5443,7 +5459,7 @@ GameObject:
   - component: {fileID: 2025318514}
   m_Layer: 0
   m_Name: jacare (1)
-  m_TagString: Portal
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

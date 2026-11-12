@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 100715898}
   m_Layer: 0
   m_Name: inimigo (1)
-  m_TagString: Inimigo
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2672,7 +2672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9150979713748449139, guid: b003df10ca52a804498d101b244119b7, type: 3}
       propertyPath: m_TagString
-      value: Portal_Fase2
+      value: Dano
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3376,7 +3376,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9150979713748449139, guid: b003df10ca52a804498d101b244119b7, type: 3}
       propertyPath: m_TagString
-      value: Portal_Fase2
+      value: Dano
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3773,6 +3773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: inimigo
       objectReference: {fileID: 0}
+    - target: {fileID: 1794609461894343, guid: e9e5ce2737efe1d42b1a5fcd562c3c32, type: 3}
+      propertyPath: m_TagString
+      value: Dano
+      objectReference: {fileID: 0}
     - target: {fileID: 1300923001894835053, guid: e9e5ce2737efe1d42b1a5fcd562c3c32, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.14
@@ -3945,7 +3949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9150979713748449139, guid: b003df10ca52a804498d101b244119b7, type: 3}
       propertyPath: m_TagString
-      value: Portal_Fase2
+      value: Dano
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

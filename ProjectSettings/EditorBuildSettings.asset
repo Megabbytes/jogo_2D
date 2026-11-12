@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Fase1.unity
-    guid: d863e54858f22fb4f80a0ee53e23245f
-  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 3ceafde229e962240a2bf730bf369c39
+  - enabled: 1
+    path: Assets/Scenes/Fase1.unity
+    guid: d863e54858f22fb4f80a0ee53e23245f
   - enabled: 1
     path: Assets/Scenes/Deserto.unity
     guid: 975e8b09032e0df41acfe0fda6ae28bd
