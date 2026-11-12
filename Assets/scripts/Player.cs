@@ -34,5 +34,9 @@ public class Player : MonoBehaviour
         {
             menu.MostarGameOver();
         }
+        else if(collision.gameObject.CompareTag("Dano2"))
+        {
+            menu.MostarGameOver();
+        }
     }
 }

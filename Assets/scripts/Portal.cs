@@ -15,19 +15,24 @@ public class Portal : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Portal"))// verifica se o objeto com o qual o jogador colidiu tem a tag "Portal"
         {
-            SceneManager.LoadScene(2);// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal"
+            SceneManager.LoadScene("Deserto");// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal"
         }
         else if (collision.gameObject.CompareTag("Portal_Volta"))// verifica se o objeto com o qual o jogador colidiu tem a tag "Portal2"
         {
-            SceneManager.LoadScene(0);// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal2"
+            SceneManager.LoadScene("Fase1");// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal2"
         }
         else if (collision.gameObject.CompareTag("Portal_Fase2"))// verifica se o objeto com o qual o jogador colidiu tem a tag "Portal_Fase2"
         {
-            SceneManager.LoadScene(3);// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal_Fase2"
+            SceneManager.LoadScene("Floresta_fase_3");// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal_Fase2"
         }
         else if (collision.gameObject.CompareTag("Portal_Volta2"))// verifica se o objeto com o qual o jogador colidiu tem a tag "Portal_Fase3"
         {
-            SceneManager.LoadScene(2);// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal_Fase3"
+            SceneManager.LoadScene("Deserto");// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal_Fase3"
+        }
+
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene("FaseFinal");
         }
     }
 }

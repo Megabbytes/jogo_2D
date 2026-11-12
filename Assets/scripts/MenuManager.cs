@@ -10,4 +10,9 @@ public class MenuManager : MonoBehaviour
     {
         Application.Quit(); // Encerra o jogo quando o botão "Quit Game" é pressionado
     }
+    public void VoltarMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
+    }
 }
