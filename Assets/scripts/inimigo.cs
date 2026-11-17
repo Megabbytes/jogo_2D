@@ -21,7 +21,7 @@ public class inimigo : MonoBehaviour
         // Se encostar no player
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
