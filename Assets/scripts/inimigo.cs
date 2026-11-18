@@ -5,6 +5,7 @@ public class inimigo : MonoBehaviour
 {
     public Transform player;
     public float velocidade = 3f;
+    public MenuScene menu;
 
     void Update()
     {
@@ -21,7 +22,7 @@ public class inimigo : MonoBehaviour
         // Se encostar no player
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            menu.MostarGameOver();
         }
     }
 }

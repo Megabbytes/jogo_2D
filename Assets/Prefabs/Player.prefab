@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 6790555748513506634}
   - component: {fileID: 2017553275132010820}
   - component: {fileID: 2206012740319312458}
-  - component: {fileID: 6484479832437586743}
   - component: {fileID: 5903692453231781084}
   - component: {fileID: -1343082786886528101}
   m_Layer: 0
@@ -134,6 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458b07f6d88c7e54da122eb3da55471f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moedas: 0
   speed: 5
 --- !u!60 &6790555748513506634
 PolygonCollider2D:
@@ -234,18 +234,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.21133333}
   m_Radius: 0.5
---- !u!114 &6484479832437586743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3333508447154880060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 158037b584263314cbcc68f0e9b860ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5903692453231781084
 MonoBehaviour:
   m_ObjectHideFlags: 0
