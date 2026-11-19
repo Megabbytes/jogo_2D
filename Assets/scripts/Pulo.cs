@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Pulo : MonoBehaviour
 {
-    public float jumpForce = 10f; // Variável pública do tipo float que define a força do pulo do player. Essa força será usada para aplicar uma força para cima no Rigidbody2D do player quando ele pular. O valor inicial é 10, mas pode ser ajustado no Inspector do Unity para aumentar ou diminuir a altura do pulo.
-    private Rigidbody2D rb; // Variável privada do tipo Rigidbody2D que será usada para armazenar o componente Rigidbody2D do player. O Rigidbody2D é responsável por aplicar física ao player, permitindo que ele se mova e interaja com o ambiente de forma realista.
-    private bool isGrounded = true;// Variável booleana que indica se o player está no chão ou não. Inicialmente, o player está no chão, então isGrounded é verdadeiro.
+    public float jumpForce = 10f; // Variável pública do tipo float que define a força do pulo do player. 
+    private Rigidbody2D rb; // Variável privada do tipo Rigidbody2D que será usada para armazenar o componente Rigidbody2D do player.
+    private bool isGrounded = true;// Variável booleana que indica se o player está no chão ou não.
 
     void Start() 
     {

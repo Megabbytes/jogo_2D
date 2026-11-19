@@ -30,9 +30,9 @@ public class Portal : MonoBehaviour
             SceneManager.LoadScene("Deserto");// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Portal_Fase3"
         }
 
-        if (collision.gameObject.CompareTag("Finish"))
+        if (collision.gameObject.CompareTag("Finish"))// verifica se o objeto com o qual o jogador colidiu tem a tag "Finish"
         {
-            SceneManager.LoadScene("FaseFinal");
+            SceneManager.LoadScene("FaseFinal");// faz com que o jogo reinicie quando o jogador colidir com um objeto com a tag "Finish"
         }
     }
 }
